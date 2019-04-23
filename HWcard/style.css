@@ -1,0 +1,75 @@
+.parent {
+  width: 400px;
+  height: 400px;
+  border: 2px solid black;
+  position: relative;
+  background-color: bisque;
+  top: 0;
+  left: 0;
+}
+
+.parent .figure1 {
+  height: 198px;
+  width: 198px;
+  border: 2px solid black;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+.parent .figure2 {
+  height: 0px;
+  width: 142px;
+  border: 1px solid black;
+  position: absolute;
+  -webkit-transform-origin: 0;
+          transform-origin: 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.parent .figure3 {
+  height: 0px;
+  width: 142px;
+  border: 1px solid black;
+  position: absolute;
+  -webkit-transform-origin: 0%;
+          transform-origin: 0%;
+  -webkit-transform: translateY(298px) translateX(102px) rotate(135deg);
+          transform: translateY(298px) translateX(102px) rotate(135deg);
+}
+
+.parent .figure4 {
+  height: 0px;
+  width: 142px;
+  border: 1px solid black;
+  position: absolute;
+  -webkit-transform-origin: 0%;
+          transform-origin: 0%;
+  -webkit-transform: translateY(298px) translateX(300px) rotate(45deg);
+          transform: translateY(298px) translateX(300px) rotate(45deg);
+}
+
+.parent .figure5 {
+  height: 0px;
+  width: 142px;
+  border: 1px solid black;
+  position: absolute;
+  -webkit-transform-origin: 0;
+          transform-origin: 0;
+  -webkit-transform: translateY(-2px) translateX(400px) rotate(134deg);
+          transform: translateY(-2px) translateX(400px) rotate(134deg);
+}
+
+.parent .table {
+  height: 30px;
+  width: 100px;
+  border: 1px solid brown;
+  background-color: #bb6e11;
+  position: absolute;
+  left: 95px;
+  top: 260px;
+  -webkit-transform: skew(-55deg);
+          transform: skew(-55deg);
+}
+/*# sourceMappingURL=style.css.map */

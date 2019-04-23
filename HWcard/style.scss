@@ -1,0 +1,59 @@
+.parent{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    position: relative;
+    background-color: bisque;
+    top:0;
+    left: 0;
+    .figure1{
+        height: 198px;
+        width: 198px;
+        border: 2px solid black;
+        position: absolute;
+        left: 100px;
+        top: 100px;
+    }
+    .figure2{
+        height: 0px;
+        width: 142px;
+        border: 1px solid black;
+        position: absolute;
+        transform-origin: 0;
+        transform: rotate(45deg);
+    }   
+    .figure3{
+        height: 0px;
+        width: 142px;
+        border: 1px solid black;
+        position: absolute;
+        transform-origin: 0%;
+        transform: translateY(298px) translateX(102px) rotate(135deg);
+    }  
+    .figure4{
+        height: 0px;
+        width: 142px;
+        border: 1px solid black;
+        position: absolute;
+        transform-origin: 0%;
+        transform: translateY(298px) translateX(300px) rotate(45deg);
+    }  
+    .figure5{
+        height: 0px;
+        width: 142px;
+        border: 1px solid black;
+        position: absolute;
+        transform-origin: 0;
+        transform: translateY(-2px) translateX(400px) rotate(134deg);
+    } 
+    .table{
+        height: 30px;
+        width: 100px;
+        border: 1px solid brown;
+        background-color: rgb(187, 110, 17);
+        position: absolute;
+        left: 95px;
+        top: 260px; 
+        transform: skew(-55deg);
+    }
+}   
