@@ -5,7 +5,7 @@
     position: relative;
     .child{
         animation: moving 5s;
-        animation-direction: initial;
+        animation-iteration-count: infinite;
     }
 }
 @keyframes moving{

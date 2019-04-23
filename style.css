@@ -8,8 +8,8 @@
 .parent .child {
   -webkit-animation: moving 5s;
           animation: moving 5s;
-  -webkit-animation-direction: initial;
-          animation-direction: initial;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes moving {
